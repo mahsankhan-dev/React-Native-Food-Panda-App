@@ -14,7 +14,7 @@ export const cartSlice = createSlice({
     removeItem: (state, action) => {
       let temp = [...state.items];
       temp.splice(action.payload, 1);
-      // console.log("mt Temp".temp);
+      console.log("mt Temp".temp);
 
       return {
         ...state,
